@@ -47,4 +47,4 @@ RUN sudo apt-get install -y nodejs wget
 
 # Install Google Chrome
 RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-RUN sudo apt install ./google-chrome-stable_current_amd64.deb
+RUN sudo apt install -y ./google-chrome-stable_current_amd64.deb
