@@ -43,7 +43,7 @@ ENTRYPOINT ["/usr/bin/deploy-container-entrypoint.sh"]
 
 # Install NodeJS
 RUN curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
-RUN sudo apt-get install -y nodejs
+RUN sudo apt-get install -y nodejs wget
 
 # Install Google Chrome
 RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
